@@ -4,7 +4,7 @@ class CounterDisplay extends Component{
     render(){
         return(
             <div>
-                1
+                {this.props.current}
             </div>
         );
     }
